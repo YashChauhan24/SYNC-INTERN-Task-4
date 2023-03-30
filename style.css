@@ -1,0 +1,136 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h3,h1{
+    font-weight: bold;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 7px;
+    width: 7%;
+    margin-left: 50%;
+}
+.big-heading{  
+    font-size: 2.5rem;  
+    line-height: 1.5;
+    font-weight: 900;
+}
+.container-fluid{
+    padding: 7% 7%;
+}
+
+/* navbar */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.logo{
+    width: 5rem;
+}
+
+/* title */
+#title .big-heading{
+    text-align: left;
+}
+#title .container-fluid{
+    padding: 3% 7% 7%;
+    text-align: left;
+}
+.title-image{
+    width: 60%;
+}
+
+/* subscriber */
+
+.subscriber-heading{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+/* review */
+#review .card{
+    text-align: justify;
+    padding: 1%;
+    border: none;
+}
+.review-div{
+    width: 10%;
+}
+.review-image{
+   width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* features */
+#features{
+    display: flex;
+}
+.feature-title{
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+} 
+#features .card{
+    padding: 2%;
+}
+
+/* internship */
+.internship-form{
+    text-align: left;
+}
+#internship .card{
+    margin: auto;
+    width: 30rem;
+}
+
+/* cta */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* footer */
+#footer .container-fluid{
+    padding: 7% 15%;
+}
+.socail-icon{
+    margin: 20px 10px;
+}
+@media (max-width:1028px){
+    #title .big-heading{
+        text-align: center;
+    }
+    #title{  
+        text-align: center;   
+    }
+    .title-image{
+        margin: 2%;
+    }
+    .row{
+        text-align: center;    
+    }
+    #features .card{
+        width: 100%;
+        margin: 2%;
+    }
+    #review .card{
+        border: solid;
+        border-color: grey;
+        margin: 2%;
+        padding: 2%;
+    }
+  
+}
